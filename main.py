@@ -1,10 +1,9 @@
-temp = 30
+name = "Python";
+countZ = 0
+for letter in name:
+    if letter == "z":
+        countZ+=1
+    print(f"letter is {letter} and Z found {countZ} times")
 
-if temp > 35:
-    print("Very hot")
-elif temp > 25:
-    print("Normal hot")
-elif temp > 15:
-    print("Pleasant")
-else:
-    print("Cold")
+
+print("Z count in overall is ",countZ)
