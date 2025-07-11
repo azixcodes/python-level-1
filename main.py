@@ -1,12 +1,2 @@
-command = "start"
-
-
-match command:
-    case "start":
-        print("starting..")
-    case "stop":
-        print("stopping..")
-    case "end":
-        print("ending..")
-    case _:
-        print("unknow command")
+mixed = ["apple",34,"banana",True,40,"cherry"]
+print(mixed[3])
