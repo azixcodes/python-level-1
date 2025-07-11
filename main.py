@@ -1,9 +1,12 @@
-name = "Python";
-countZ = 0
-for letter in name:
-    if letter == "z":
-        countZ+=1
-    print(f"letter is {letter} and Z found {countZ} times")
+command = "start"
 
 
-print("Z count in overall is ",countZ)
+match command:
+    case "start":
+        print("starting..")
+    case "stop":
+        print("stopping..")
+    case "end":
+        print("ending..")
+    case _:
+        print("unknow command")
